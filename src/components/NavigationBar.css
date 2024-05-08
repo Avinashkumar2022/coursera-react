@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex; /* Arrange items horizontally */
+    justify-content: space-between; /* Distribute items evenly */
+    padding: 1rem 2rem; /* Add some padding */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange list items horizontally */
+  }
+  
+  .navbar li {
+    margin-right: 1rem; /* Add space between list items */
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .navbar a:hover {
+    background-color: #222;
+    cursor: pointer;
+  }
+  
